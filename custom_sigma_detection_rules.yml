@@ -54,7 +54,7 @@ description: Detects attempts to access LSASS process memory, which is commonly 
 references:
     - https://attack.mitre.org/techniques/T1003/001/
     - https://www.elastic.co/blog/detecting-credential-access
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/01/20
 modified: 2025/03/01
 tags:
@@ -96,7 +96,7 @@ description: Detects creation of scheduled tasks using schtasks.exe with suspici
 references:
     - https://attack.mitre.org/techniques/T1053/005/
     - https://thedfirreport.com/2022/02/07/qbot-likes-to-move-it-move-it/
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/02/01
 modified: 2025/03/01
 tags:
@@ -136,7 +136,7 @@ description: Detects DNS queries to dynamic DNS services frequently abused by ma
 references:
     - https://attack.mitre.org/techniques/T1071/004/
     - https://www.cisa.gov/sites/default/files/2023-01/aa23-025a-protecting-against-malicious-use-of-remote-monitoring-and-management-software.pdf
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/02/10
 modified: 2025/03/01
 tags:
@@ -173,7 +173,7 @@ description: Detects modification of Windows Registry Run keys, a common persist
 references:
     - https://attack.mitre.org/techniques/T1547/001/
     - https://www.theregister.com/2022/08/17/microsoft_malware_persistence/
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/02/15
 modified: 2025/03/01
 tags:
@@ -209,7 +209,7 @@ description: Detects remote execution using PsExec or similar tools that create 
 references:
     - https://attack.mitre.org/techniques/T1021/002/
     - https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/02/20
 modified: 2025/03/01
 tags:
@@ -245,7 +245,7 @@ description: Detects Base64 encoded content in process command lines, a common o
 references:
     - https://attack.mitre.org/techniques/T1027/
     - https://redcanary.com/threat-detection-report/techniques/obfuscated-files-or-information/
-author: Your Name
+author: Venkatesh Bolla
 date: 2025/03/01
 modified: 2025/03/10
 tags:
